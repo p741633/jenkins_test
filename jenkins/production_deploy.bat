@@ -1,5 +1,5 @@
 set "deployDIR=E:\\test"
-set "configDIR=E:\\Jenkins\\IUR\\Config"
+set "configDIR=E:\\Jenkins\\Config\\IUR"
 
 robocopy ".\\jenkins" "%deployDIR%\\jenkins" /e /copy:DAT /mt /z
 
